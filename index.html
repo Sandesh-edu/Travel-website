@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/home.css">
     <title>YTL Travels</title>
 </head>
@@ -14,20 +13,22 @@
         <nav>
             <div class="logo bars">
                 <div class="bar">
-                    <!-- <i class="fa fa-bars"></i> -->
+                     <img src="images/menu.png" alt="menu">
                 </div>
                 <h3>YTL Travels</h3>
             </div>
             <div class="menu">
+                <div class="menu-inner" style="transition: transform 0.3s ease;"></div>
                 <div class="close">
-                    <!-- <i class="fa fa-close"></i> -->
+                    <img src="images/multiply.png" alt="back">
+                    
                 </div>
                 <ul>
-                    <li><a href="home.html">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="packages.html">travel packages</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="packages.html">featured</a></li>
                     <li><a href="destination.html">destinatons</a></li>
-                    <li><a href="#">book now</a></li>
+                    <li><a href="#">Article</a></li>
                 </ul>
             </div>
             <div class="signup-login">
@@ -42,7 +43,6 @@
             <p>discover inspiring destinatons, create unfgettable memories, and travel with confidence - adventure start adventure starts here</p>
 
             <div class="search">
-                <!-- <i class="fa fa-search"></i> -->
                 <img src="images/OIP.png" alt="search">
                 <input type="text" placeholder="your jouney begins with a search...">
                 <button>search</button>
@@ -51,6 +51,7 @@
     </div>
 </section>
 <!-- End of home section -->
+
  <!-- featured section starts here  -->
  <section class="featured">
     <div class="gallery">
@@ -59,44 +60,44 @@
                 <h4 class="label">featured offers</h4>
                 <h2 class="heading">unlock exclusive travel deals</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium esse labore,
+                    Get the exclusive deals and offers in this page.
                 </p>
                 <div class="image">
-                    <img src="images/plane.png" alt="">
+                    <img src="images/plane.png" alt="pplane">
                 </div>
                 <a href="#">show more</a>
             </div>
            
         </div>
         <div class="box box2">
-            <img src="images/featured-1.jpg" alt="">
+            <img src="images/featured-1.jpg" alt="featured">
             <div class="content">
                 <h2>yuliaya hotel</h2>
                 <p>gill trawangan, lombok</p>
                 <div class="review-and-idr">
-                    <div class="review"><i class="fa fa-star"></i> 4.9 | 853 review</div>
+                    <div class="review">4.9 | 853 review</div>
                     <p>NPR 343.000</p>
                 </div>
             </div>
         </div>
         <div class="box box3">
-            <img src="images/featured-2.jpg" alt="">
+            <img src="images/featured-2.jpg" alt="featured">
             <div class="content">
                 <h2>feranndo hotel</h2>
                 <p>gill trawangan, lombok</p>
                 <div class="review-and-idr">
-                    <div class="review"><i class="fa fa-star"></i> 4.9 | 853 review</div>
+                    <div class="review"> 4.9 | 853 review</div>
                     <p>NPR 343.000</p>
                 </div>
             </div>
         </div>
         <div class="box box4">
-            <img src="images/featured-3.jpg" alt="">
+            <img src="images/featured-3.jpg" alt="featured">
             <div class="content">
                 <h2>evin's hotel</h2>
                 <p>gill trawangan, lombok</p>
                 <div class="review-and-idr">
-                    <div class="review"><i class="fa fa-star"></i> 4.9 | 853 review</div>
+                    <div class="review"> 4.9 | 853 review</div>
                     <p>NPR 343.000</p>
                 </div>
             </div>
@@ -109,40 +110,39 @@
 <section class="destinations">
     <h4 class="label">destinations</h4>
     <div class="container">
-        <div class="container-box">
+        <div class="container-box" id="container-box">
             <h2 class="heading">city escape and nature retreats</h2>
             <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero culpa pariatur iusto sequi, ut expedita soluta nihil est quaerat itaque corporis maiores in, at id officiis tempore. Harum vitae fugit itaque expedita asperiores vero delectus?</p>
-                <a href="#">explore more <i class="fa fa-arrow-right"></i></a>
+                <p id="content-text">Hop aboard the historic cable cars that climb the city’s steep hills. Feel the wind in your hair as you traverse the charming streets lined with pastel-colored Victorian houses. Don’t miss Lombard Street, known as the “crookedest street in the world,” with its zigzagging switchbacks and blooming flowerbeds.</p>
             </div>
         </div>
         <div class="gallery">
             <div class="box box1">
-                <img src="images/home-background.jpg" alt="">
+                <img src="images/home-background.jpg" alt="home-background">
                 <div class="text">
                     <h2>east nusa tenggara</h2>
                 </div>
             </div>
             <div class="box box2">
-                <img src="images/destinations-1.jpg" alt="">
+                <img src="images/destinations-1.jpg" alt="destination">
                 <div class="text">
                     <h2>bali</h2>
                 </div>
             </div>
             <div class="box box3">
-                <img src="images/destinations-2.jpg" alt="">
+                <img src="images/destinations-2.jpg" alt="destination">
                 <div class="text">
                     <h2>bali</h2>
                 </div>
             </div>
             <div class="box box4">
-                <img src="images/destinations-3.jpg" alt="">
+                <img src="images/destinations-3.jpg" alt="destination">
                 <div class="text">
                     <h2>east java</h2>
                 </div>
             </div>
             <div class="box box5">
-                <img src="images/destinations-4.jpg" alt="">
+                <img src="images/destinations-4.jpg" alt="destination">
                 <div class="text">
                     <h2>west papua</h2>
                 </div>
@@ -152,6 +152,58 @@
 </section>
 <!-- destinatons section ends here  -->
 
+<!-- Starting of About US Page -->
+
+<section id="testimonials">
+    <h1>About Us</h1>
+    <div class="oursum-container">
+        <div class="oursum-image">
+          <img src="images/silent.jpg" alt="YTL Travels">
+        </div>
+        <div class="oursum-text">
+          <p>YTL Travels is a prominent travel company known for its comprehensive range of transportation services, including buses and coaches, primarily operating in Malaysia. The company is recognized for its commitment to providing safe, reliable, and comfortable travel experiences for passengers across various destinations. YTL Travels has gained a reputation for its punctuality, customer service, and modern fleet of vehicles equipped with amenities to enhance the travel experience. With a focus on customer satisfaction and efficiency, YTL Travels continues to be a preferred choice for both domestic and international travelers seeking convenient and enjoyable transportation options.</p>
+        </div>
+      </div>
+    <h2 class="testimonial-title">What Our Customers Say</h2>
+    <div class="testimonial-container container">
+        <div class="testimonial-box">
+            <div class="customer-detail">
+                <div class="customer-photo">
+                    <img src="images/male-photo1.jpg" alt="male">
+                    <p class="customer-name">Ross Lee</p>
+                </div>
+            </div>
+            <p class="testimonial-text">
+                this is the best travel agency with the best quality and friendly behaviour.
+            </p>
+
+        </div>
+        <div class="testimonial-box">
+            <div class="customer-detail">
+                <div class="customer-photo">
+                    <img src="images/female-photo1.jpg" alt="person">
+                    <p class="customer-name">Amelia Watson</p>
+                </div>
+            </div>
+            <p class="testimonial-text">
+                suprisingly very good  service, i had a problem when booking my trip but they helped me out in no time.
+            </p>
+
+        </div>
+        <div class="testimonial-box">
+            <div class="customer-detail">
+                <div class="customer-photo">
+                    <img src="images/male-photo3.jpg" alt="person">
+                    <p class="customer-name">Ben Roy</p>
+                </div>
+            </div>
+            <p class="testimonial-text">
+                in this  pandemic era, YTL Travels is a lifesaver for me as I can now plan my trip without worrying about the safety of me.
+            </p>
+
+        </div>
+    </div>
+</section>
 
 
     <!-- footer section starts here  -->
@@ -159,17 +211,14 @@
         <section class="footer">
             <div class="container">
                 <div class="detail">
-                    <h3>TravelX</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere in, non praesentium soluta quis enim aperiam aliquam, rem totam porro, vel obcaecati modi architecto error maiores iusto quaerat aut eum.</p>
+                    <h3>YTL Travels</h3>
+                    <p>Whether you’re dreaming of pristine beaches, historic landmarks, or vibrant cities, YTL Travels is your trusted companion. Let’s explore the world together!</p>
                     <h5>get in touch</h5>
                     <a href="#">YTLAGENCY@gmail.com</a>
                     <div class="social">
-                        <!-- <a href="#"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="#"><i class="fa fa-facebook-square"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square"></i></a> -->
-                        <a href="#"><img src="images/fb.png" alt=""></a>
-                        <a href="#"><img src="images/instagram.png" alt=""></a>
-                        <a href="#"><img src="images/linkiedein.png" alt=""></a>
+                        <a href="#"><img src="images/fb.png" alt="facebook"></a>
+                        <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+                        <a href="#"><img src="images/linkiedein.png" alt="linkedun"></a>
                     </div>
                 </div>
                 <div class="about-us">
@@ -208,5 +257,6 @@
         </section>
     </footer>
     <!-- footer section ends here  -->
+    <script src="js/script.js"></script>
 </body>
 </html>
